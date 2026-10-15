@@ -207,7 +207,7 @@ function CourseView({ course }: { course: Course }) {
         {tab === "Contenido" && (
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[300px_1fr] 2xl:grid-cols-[300px_1fr_300px]">
             {/* Unidades y lecciones */}
-            <div className="space-y-3 lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:self-start lg:overflow-y-auto lg:pb-2 no-scrollbar">
+            <div className="space-y-3 lg:self-start">
               {course.units.map((u, i) => {
                 const n = u.lessons.filter((_, l) => done.has(`${i}-${l}`)).length;
                 const open = openUnit === i;
