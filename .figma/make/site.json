@@ -1,0 +1,15 @@
+{
+  "description": "Plataforma educativa multimedia e interactiva para aprender a tu ritmo.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "title": "Eduvia — Aprende hoy, construye mañana",
+  "language": "es",
+  "icons": {
+    "icon": "/favicon.png"
+  }
+}
